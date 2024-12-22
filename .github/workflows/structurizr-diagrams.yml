@@ -36,6 +36,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: 16
+          cache: 'npm'
       - name: Export Structurizr Diagrams
         uses: vitormartins1/structurizr-lite-puppeteer-integration-action@v1.0.8
         with:
