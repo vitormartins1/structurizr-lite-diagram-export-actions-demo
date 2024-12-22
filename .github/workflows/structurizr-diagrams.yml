@@ -48,9 +48,9 @@ jobs:
           echo "1111"
           ls -la /home/runner/work/_actions/vitormartins1/structurizr-lite-puppeteer-integration-action/
           echo "2222"
-          ls -la /home/runner/work/_actions/vitormartins1/structurizr-lite-puppeteer-integration-action/v1.0.10/
+          ls -la /home/runner/work/_actions/vitormartins1/structurizr-lite-puppeteer-integration-action/v1.0.11/
       - name: Export Structurizr Diagrams
-        uses: vitormartins1/structurizr-lite-puppeteer-integration-action@v1.0.10
+        uses: vitormartins1/structurizr-lite-puppeteer-integration-action@v1.0.11
         with:
           structurizr_url: 'http://localhost:8080/workspace/diagrams'
           format: 'png'
