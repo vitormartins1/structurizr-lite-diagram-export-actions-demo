@@ -37,6 +37,18 @@ jobs:
       #   with:
       #     node-version: 16
       #     cache: 'npm'
+      - name: Inspect Directory Structure
+        run: |
+          echo "Listing root directory contents:"
+          ls -la /
+          echo "Listing GitHub workspace contents:"
+          ls -la ${{ github.workspace }}
+          echo "Listing Action-specific folder contents:"
+          ls -la /home/runner/work/_actions
+          echo "1111"
+          ls -la /home/runner/work/_actions/vitormartins1/structurizr-lite-puppeteer-integration-action/
+          echo "2222"
+          ls -la /home/runner/work/_actions/vitormartins1/structurizr-lite-puppeteer-integration-action/v1.0.10/
       - name: Export Structurizr Diagrams
         uses: vitormartins1/structurizr-lite-puppeteer-integration-action@v1.0.10
         with:
