@@ -38,7 +38,7 @@ jobs:
       #     node-version: 16
       #     cache: 'npm'
       - name: Export Structurizr Diagrams
-        uses: vitormartins1/structurizr-lite-puppeteer-integration-action@v1.0.8
+        uses: vitormartins1/structurizr-lite-puppeteer-integration-action@v1.0.9
         with:
           structurizr_url: 'http://localhost:8080/workspace/diagrams'
           format: 'png'
