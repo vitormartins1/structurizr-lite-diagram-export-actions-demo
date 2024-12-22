@@ -32,11 +32,6 @@ jobs:
           docker cp ${{ github.workspace }}/docs/.structurizr $CONTAINER_ID:/usr/local/structurizr/.structurizr
           CONTAINER_ID=$(docker ps --filter "name=structurizr" --format "{{.ID}}")
           docker exec $CONTAINER_ID ls -la /usr/local/structurizr/
-      # - name: Set up Node.js
-      #   uses: actions/setup-node@v3
-      #   with:
-      #     node-version: 16
-      #     cache: 'npm'
       - name: Inspect Directory Structure
         run: |
           echo "Listing root directory contents:"
@@ -45,12 +40,10 @@ jobs:
           ls -la ${{ github.workspace }}
           echo "Listing Action-specific folder contents:"
           ls -la /home/runner/work/_actions
-          echo "1111"
           ls -la /home/runner/work/_actions/vitormartins1/structurizr-lite-puppeteer-integration-action/
-          echo "2222"
-          ls -la /home/runner/work/_actions/vitormartins1/structurizr-lite-puppeteer-integration-action/v1.0.12/
+          ls -la /home/runner/work/_actions/vitormartins1/structurizr-lite-puppeteer-integration-action/v1.0.13/
       - name: Export Structurizr Diagrams
-        uses: vitormartins1/structurizr-lite-puppeteer-integration-action@v1.0.12
+        uses: vitormartins1/structurizr-lite-puppeteer-integration-action@v1.0.13
         with:
           structurizr_url: 'http://localhost:8080/workspace/diagrams'
           format: 'png'
