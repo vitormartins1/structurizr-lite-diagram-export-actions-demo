@@ -43,9 +43,9 @@ jobs:
           echo "Listing Action-specific folder contents:"
           ls -la /home/runner/work/_actions
           echo "Listing action folder (/home/runner/work/_actions/vitormartins1/structurizr-lite-puppeteer-integration-action/v1.0.27/):"
-          ls -la /home/runner/work/_actions/vitormartins1/structurizr-lite-puppeteer-integration-action/v1.0.30/
+          ls -la /home/runner/work/_actions/vitormartins1/structurizr-lite-puppeteer-integration-action/v1.0.31/
       - name: Export Structurizr Diagrams
-        uses: vitormartins1/structurizr-lite-puppeteer-integration-action@v1.0.30
+        uses: vitormartins1/structurizr-lite-puppeteer-integration-action@v1.0.31
         with:
           structurizr_url: 'http://localhost:8080/workspace/diagrams'
           format: 'png'
