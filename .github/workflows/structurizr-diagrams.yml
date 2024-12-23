@@ -38,9 +38,11 @@ jobs:
           ls -la /
           echo "Listing GitHub workspace contents:"
           ls -la ${{ github.workspace }}
+          echo "Listing home folder contents:"
+          ls -la /home
           echo "Listing Action-specific folder contents:"
           ls -la /home/runner/work/_actions
-          ls -la /home/runner/work/_actions/vitormartins1/structurizr-lite-puppeteer-integration-action/
+          echo "Listing action folder (/home/runner/work/_actions/vitormartins1/structurizr-lite-puppeteer-integration-action/v1.0.27/):"
           ls -la /home/runner/work/_actions/vitormartins1/structurizr-lite-puppeteer-integration-action/v1.0.27/
       - name: Export Structurizr Diagrams
         uses: vitormartins1/structurizr-lite-puppeteer-integration-action@v1.0.27
