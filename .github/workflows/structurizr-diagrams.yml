@@ -6,7 +6,7 @@ on:
       - 'docs/**/*.dsl' 
 jobs:
   export-diagrams:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     services:
       structurizr:
         image: structurizr/lite:latest
