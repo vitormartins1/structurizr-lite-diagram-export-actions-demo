@@ -3,7 +3,7 @@
   "description" : "Description",
   "documentation" : { },
   "id" : 1,
-  "lastModifiedDate" : "2024-12-23T00:31:28Z",
+  "lastModifiedDate" : "2024-12-23T00:48:10Z",
   "model" : {
     "deploymentNodes" : [ {
       "children" : [ {
@@ -16,7 +16,7 @@
               "id" : "12",
               "instanceId" : 1,
               "properties" : {
-                "structurizr.dsl.identifier" : "765b20b3-f180-4c85-bb6e-f9463fd77004"
+                "structurizr.dsl.identifier" : "33ea6f17-4ad7-4021-a1a4-1850526b5205"
               },
               "relationships" : [ {
                 "description" : "Envia mensagens filtradas para",
@@ -32,7 +32,7 @@
             "instances" : "1",
             "name" : "Amazon SNS",
             "properties" : {
-              "structurizr.dsl.identifier" : "20e9d6af-7dbe-4877-9ecf-ee350c435829"
+              "structurizr.dsl.identifier" : "f4ae55cc-7a3c-484b-9b64-f78426204fc1"
             },
             "tags" : "Element,Deployment Node,Amazon Web Services - Simple Notification Service"
           }, {
@@ -43,7 +43,7 @@
               "id" : "14",
               "instanceId" : 1,
               "properties" : {
-                "structurizr.dsl.identifier" : "a826dcd4-770a-442a-bf9f-0cc0d070cc63"
+                "structurizr.dsl.identifier" : "a544d42b-e6cc-42a0-af61-59e521c2ab76"
               },
               "tags" : "Container Instance"
             } ],
@@ -54,14 +54,14 @@
               "id" : "16",
               "name" : "MESSAGE-QUEUE-DLQ",
               "properties" : {
-                "structurizr.dsl.identifier" : "cf7e5e00-9ced-4326-b6c4-8950d4258c81"
+                "structurizr.dsl.identifier" : "0447cfc1-a471-4953-a95a-54f9fca07778"
               },
               "tags" : "Element,Infrastructure Node,Queue,Amazon Web Services - Simple Queue Service Queue"
             } ],
             "instances" : "1",
             "name" : "Amazon SQS",
             "properties" : {
-              "structurizr.dsl.identifier" : "5f85fa39-6d71-4e2d-bc9e-bd17425be822"
+              "structurizr.dsl.identifier" : "aa89b585-e87d-4397-bfe9-c8ff13b9ebc9"
             },
             "tags" : "Element,Deployment Node,Amazon Web Services - Simple Queue Service"
           }, {
@@ -72,7 +72,7 @@
               "id" : "18",
               "name" : "Alarmes SQS Queue",
               "properties" : {
-                "structurizr.dsl.identifier" : "b3e45a14-0fe3-4339-9f4d-7d19f875f935"
+                "structurizr.dsl.identifier" : "222dd910-1fbe-4fd0-b0ee-33a6f8ebbf00"
               },
               "tags" : "Element,Infrastructure Node,Amazon Web Services - CloudWatch Alarm"
             }, {
@@ -80,14 +80,14 @@
               "id" : "19",
               "name" : "Alarmes SNS Topic",
               "properties" : {
-                "structurizr.dsl.identifier" : "38d6d1ff-683b-402b-b899-0a44d08f8bf4"
+                "structurizr.dsl.identifier" : "9eab8bed-3cdb-43c4-a933-6fffd703486f"
               },
               "tags" : "Element,Infrastructure Node,Amazon Web Services - CloudWatch Alarm"
             } ],
             "instances" : "5",
             "name" : "CloudWatch",
             "properties" : {
-              "structurizr.dsl.identifier" : "ed273150-8f1e-4426-b7bc-3f49989dc3f9"
+              "structurizr.dsl.identifier" : "1eb6878d-53aa-43d7-9a97-cdfbeb4866aa"
             },
             "tags" : "Element,Deployment Node,Amazon Web Services - CloudWatch"
           } ],
@@ -98,14 +98,14 @@
             "id" : "10",
             "name" : "KMS Parameter",
             "properties" : {
-              "structurizr.dsl.identifier" : "7617508c-bab4-4342-981b-6548a120e7df"
+              "structurizr.dsl.identifier" : "280b08ae-ecf8-4721-8cad-3a49ee19e435"
             },
             "tags" : "Element,Infrastructure Node,Amazon Web Services - Key Management Service"
           } ],
           "instances" : "1",
           "name" : "sa-east-1",
           "properties" : {
-            "structurizr.dsl.identifier" : "e9e53e0e-78e4-4f9b-a23f-c0bb103d2d60"
+            "structurizr.dsl.identifier" : "e4b254d7-f0e7-4c10-aba3-d7c4d7b9034a"
           },
           "tags" : "Element,Deployment Node,Amazon Web Services - AWS Region"
         } ],
@@ -114,7 +114,7 @@
         "instances" : "1",
         "name" : "Enterprise",
         "properties" : {
-          "structurizr.dsl.identifier" : "70129b7b-e7bb-44a2-b947-dd5bb68afad5"
+          "structurizr.dsl.identifier" : "53fc532b-a4ac-4655-b14e-a53ea5859d07"
         },
         "tags" : "Element,Deployment Node,Amazon Web Services - Server contents"
       } ],
@@ -123,7 +123,7 @@
       "instances" : "1",
       "name" : "Amazon Web Services",
       "properties" : {
-        "structurizr.dsl.identifier" : "98bf5dc6-5a07-44c8-b588-637f33e47d34"
+        "structurizr.dsl.identifier" : "869558eb-ca1e-403a-a139-907c0364454c"
       },
       "tags" : "Element,Deployment Node,Amazon Web Services - Cloud"
     } ],
