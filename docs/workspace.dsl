@@ -6,7 +6,7 @@ workspace {
                 technology "SNS Topic"
                 tags "Amazon Web Services - Simple Notification Service Topic" "Topic" 
             }
-            filaSQS = container "MESSAGE-QUEUE-v30" {
+            filaSQS = container "MESSAGE-QUEUE-v31" {
                 description "Fila que recebe mensagens filtradas do tópico SNS."
                 technology "AWS SQS"
                 tags "Queue" "Amazon Web Services - Simple Queue Service Queue" 
